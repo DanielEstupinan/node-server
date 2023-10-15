@@ -1,9 +1,10 @@
 const http = require('http');
 
 const tareas = [
-  { id: 1, descripcion: 'Hacer la compra', completada: false, descripcionAdicional: 'Comprar alimentos y productos de limpieza' },
-  { id: 2, descripcion: 'Lavar el coche', completada: true, descripcionAdicional: 'Lavar el coche en el lavado automático' },
+  { id: 1, descripcion: 'Hacer la compra', completada: false, descripcionAdicional: '¿Qué es mi producto y para que sirve?' },
+  { id: 2, descripcion: 'Lavar el coche', completada: true, descripcionAdicional: 'mi prodcuto es jabon quita manchas para cualquier clase de vehiculos, espejos, losa de cocina, sirve para quietar el 99.99% de bacterias' },
   { id: 3, descripcion: 'Estudiar para el examen', completada: false, descripcionAdicional: 'Revisar apuntes y hacer ejercicios' }
+  { id: 4, descripcion: 'Estudiar para el examen', completada: false, descripcionAdicional: 'Revisar apuntes y hacer ejercicios' }
 ];
 
 const servidor = http.createServer((req, res) => {
